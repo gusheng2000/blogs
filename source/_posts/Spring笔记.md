@@ -20,7 +20,7 @@ spring 是基于 java 语言的轻量级的 IOC 和 AOP 容器框架，使用 sp
 | orm     | 对 ORM 框架提供了很好的整合服务                              |
 | web     | 提供 web 方面的服务                                          |
 
-<img src="./img/5.jpg" title="Spring 的板块" />
+<img src="/img/5.jpg" title="Spring 的板块" />
 
 ## 简单Spring程序实例
 
@@ -446,7 +446,7 @@ AOP 是面向切面编程思想，底层基于动态代理技术 ( JDK OR CGLIB 
 
 AOP 是在不影响源代码的情况下增强功能，那么既然是增强功能就一定要注意执行的时机，上面的五种通知类型就对应着各种执行的时机，我们来通过异常捕获机制来具体了解一下：
 
-<img src="./img/spring-01.jpg" style="float: left" />
+<img src="/img/spring-01.jpg" style="float: left" />
 
 ### Execution 表达式
 

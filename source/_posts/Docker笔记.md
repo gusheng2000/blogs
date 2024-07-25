@@ -480,7 +480,7 @@ redis:5.0.10 redis-server /opt/conf/redis.conf
 ```
 
 - 启动出现如下错误
-- ![image-20200602184321790](./img/docker-10.png)
+- ![image-20200602184321790](/img/docker-10.png)
 
 #### 预先配置
 
@@ -1039,7 +1039,7 @@ version: '3'
 
 services:
   web:
-    build: .
+    build: ../../../新建文件夹
     depends_on:
       - db
       - redis

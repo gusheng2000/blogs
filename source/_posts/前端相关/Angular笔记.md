@@ -379,7 +379,7 @@ public model:object = {
 
 ~~~html
 <!-- 无视目录，直接使用assetc即可访问目标文件夹  -->
-<../img src="assets/google.jpg" title="这是一张图片">
+</img src="assets/google.jpg" title="这是一张图片">
 ~~~
 
 ## 服务的创建和使用

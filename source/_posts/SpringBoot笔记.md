@@ -13,11 +13,11 @@ index_img:  https://s2.loli.net/2023/11/26/GyIdrAsehtBv1ug.png
 
 使用 idea 快速创建一个 boot 程序：
 
-<img src="./img/7.jpg" />
+<img src="/img/7.jpg" />
 
 ### 目录结构介绍
 
-<img src="./img/1.jpg" />
+<img src="/img/1.jpg" />
 
 ### pom 文件解析
 
@@ -699,7 +699,7 @@ ${#datas.format(date,str)} 时间格式化，按照指定格式输出data
 
 在其他大型网站上几乎都可以看到，页面上有个标识可以设置当前页面显示的语言，这里就是用到了国际化 (i18n) 的技术，国际化是在资源目录中创建 N 多个 properties 配置文件文件，将各国语言分别按照指定的格式进行存放，然后将配置文件中的字符提取到页面上来，便实现了国际化效果
 
-<img src="./img/3.jpg" />
+<img src="/img/3.jpg" />
 
 在语言修改完成后在 application.properties 中设置国际化配置文件所在目录
 
@@ -913,7 +913,7 @@ public class CorsFilter implements Filter{
 
 **1. 在创建 SpringBoot 时勾选 JDBC 和指定数据库驱动**
 
-<img src="./img/4.jpg" />
+<img src="/img/4.jpg" />
 
 **2. 在配置文件中配置数据源相关信息**
 

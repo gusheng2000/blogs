@@ -329,7 +329,7 @@ new Vue({
 
 通过操作元素的display属性来控制元素是否显示
 
-<../img src="./../img/vue-03.png" style="float: left" />
+</img src=".//img/vue-03.png" style="float: left" />
 
 #### v-if 指令
 
@@ -362,7 +362,7 @@ new Vue({
 
 通过操作Dom控制元素是否存在来达到显示效果，如果某一个元素需要频繁的隐藏或切换的话，那么请使用v-show，相对v-if来说，频繁切换的情况下v-show的效率更高一些
 
-<../img src="./../img/vue-04.png" />
+</img src=".//img/vue-04.png" />
 
 #### v-bind 指令
 
@@ -635,7 +635,7 @@ new Vue({
 
 在这里可以设置网络速度，用来测试
 
-<../img src="./../img/vue-02.png" />
+</img src=".//img/vue-02.png" />
 
 #### v-once 指令
 
@@ -824,7 +824,7 @@ vue 的生命周期，又被称为钩子函数，是指 vue 实例从开始到�
 
 控制台图示：
 
-<../img src="./../img/vue-11.png" />
+</img src=".//img/vue-11.png" />
 
 ## Vue 的组件
 
@@ -1678,7 +1678,7 @@ vue-router 被称为前端路由，他负责在前端组件之间来回切换实
 
 > 模拟登陆和注册
 
-<../img src="./../img/vue-09.png" />
+</img src=".//img/vue-09.png" />
 
 * 当多个组件匹配了同一个 path 时，只有第一个匹配成功的生效，后面的将被覆盖
 
@@ -1746,7 +1746,7 @@ var router = new VueRouter({
 
 我们可以通过控制台发现，当有多个超链接路由时，被选中的那个超链接会动态的绑定一个class属性：
 
-<../img src="./../img/vue-10.png" />
+</img src=".//img/vue-10.png" />
 
 > 可以利用这一特点来对被点击的链接进行修饰：↓ ↓ ↓
 
@@ -1908,7 +1908,7 @@ $router 对象中的 query 属性可以接受这种拼接字符串的传参
 </html>
 ~~~
 
-<../img src="./../img/vue-12.png" />
+</img src=".//img/vue-12.png" />
 
 #### 通过 params 属性获取
 
@@ -2292,21 +2292,21 @@ axios.post('URL', {'key': 'value','key': 'value'})
 
 百度下载谷歌扩展程序 `vue-devtools`下载，然后将扩展名改成 `.zip` 的压缩文件并将其解压，得到文件：
 
-<../img src="./../img/vue-05.png" />
+</img src=".//img/vue-05.png" />
 
 将文件放在一个不会被改变的位置，然后打开 Google 浏览器右上角的设置，更多工具，扩展程序
 
-<../img src="./../img/vue-06.png" />
+</img src=".//img/vue-06.png" />
 
 紧接着点击开启扩展程序页面右上角的 `开发者模式` ，然后多出来三个选项，点击 `加载已解压的扩展程序`，找到之前存放扩展程序的位置即可添加成功
 
 <font color="red">想使用vue增强工具需要编辑vue.js文件，将其中的 `devtools: !1` 中的 ！删除，否则工具可能会失效</font>
 
-<../img src="./../img/vue-07.png" />
+</img src=".//img/vue-07.png" />
 
 vue-devtools 的正常工作截图 **↓**
 
-<../img src="./../img/vue-08.png" />
+</img src=".//img/vue-08.png" />
 
 ### vuex状态管理
 

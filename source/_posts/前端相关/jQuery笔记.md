@@ -269,7 +269,7 @@ jQuery 的选择器也支持层级关系，我们可以通过层级关系获取�
             .children().eq(1)
          .children().eq(0)
          // 除开attr，prop也可以操作标签的属性
-         .prop("src", "../img/hello.jpg");
+         .prop("src", "/img/hello.jpg");
     })
 </script>
 ~~~

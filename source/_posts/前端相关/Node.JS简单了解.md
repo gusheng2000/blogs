@@ -29,7 +29,7 @@ C:\Users\Administrator>npm -v    # 查看npm版本
 
 **1.**在 node 的安装目录新建两个文件夹   全局包下载 `node_global`，node缓存 `node_cache`
 
-![](../img/node-01.jpg)
+![](..//img/node-01.jpg)
 
 **2.**执行命令修改两个目录：
 
@@ -195,4 +195,4 @@ PS D:\Workspase\VScode\Node> node http1.js
 Http server runing! at port 8000
 ~~~
 
-![](../img/node-02.jpg)
+![](..//img/node-02.jpg)

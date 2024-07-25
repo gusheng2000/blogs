@@ -1,20 +1,14 @@
 ---
-
 title: Spring Data Jpa 学习笔记
-
 tag: spring
-
 categories: 开发框架
-
+index_img: /img/jpa/02.png
 date: 2024/5/2 20:46:25
-
-index_img:  https://chances.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGVjMTI5ODM4YTlmOTgzMTFiOTQwOTMyOTY4MzM1NGZfVFU0a09CblhsQU04ODdtRDRvTTZjbHkySVZWU3QyNnNfVG9rZW46R2o4Q2I5Qm9Gb1pvNDZ4NUpjU2M1bWFsbndnXzE3MTQ5MDIzMzg6MTcxNDkwNTkzOF9WNA
-
 ---
 
 > 官网 ；https://docs.spring.io/spring-data/jpa/reference/index.html
 
-![img](https://chances.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGVjMTI5ODM4YTlmOTgzMTFiOTQwOTMyOTY4MzM1NGZfVFU0a09CblhsQU04ODdtRDRvTTZjbHkySVZWU3QyNnNfVG9rZW46R2o4Q2I5Qm9Gb1pvNDZ4NUpjU2M1bWFsbndnXzE3MTQ5MDIzMzg6MTcxNDkwNTkzOF9WNA)
+![图01](/img/spring-data-jpa-01.png)
 
 # 一、spring Data Jpa 介绍
 

@@ -139,7 +139,7 @@ public class LoginServlet extends HttpServlet {
 
 > 效果如图所示：
 
-<img src="../img/JavaWeb1.png">
+<img src="..//img/JavaWeb1.png">
 
 前端发起请求，已经被 servlet 完全接收，参数已经处理完成。这里暂时先不考虑乱码的问题，后面会提到。
 

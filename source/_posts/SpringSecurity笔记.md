@@ -17,7 +17,7 @@ SpringSecurity 安全管理框架 ( 之后简称 security ) 是基于过滤器�
 
 创建好 boot 程序之后，导入静态素材页面至 templates 目录下，配置好三个 level 的视图 ( 页面来自狂神说 ) 跳转就可以开始练习了
 
-![](./img/security-01.png)
+![](/img/security-01.png)
 
 boot 项目添加 security 环境需要在项目创建时勾选 security 模块，或者手动在 pom 文件中添加场景启动器：
 
@@ -31,7 +31,7 @@ boot 项目添加 security 环境需要在项目创建时勾选 security 模块�
 
 当我们将依赖引入后，无需做任何的配置，security 就已经开始工作了，他默认会验证所有请求只有登录的情况下才可以访问，并且为我们提供了登录页面：
 
-![](./img/security-02.jpg)
+![](/img/security-02.jpg)
 
 security 默认提供的登录用户名为 `user`，登录密码是随机分配的，通过查看程序启动日志就可以看到：
 
@@ -85,7 +85,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 如上设置后，就可以在未登录的情况下访问 index 程序首页，而访问 level1 2 3 等就需要进行登录，直接访问会提示 403 Forbidden 没有权限访问
 
-![](./img/security-03.jpg)
+![](/img/security-03.jpg)
 
 ## 登录表单设置
 
@@ -141,7 +141,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 security 提供的登录页表单的 name 和提交的 action 地址都是预设好的，所以这里我们要先获取一下然后放到自己的登录页面中
 
-![](./img/security-04.jpg)
+![](/img/security-04.jpg)
 
 当我们配置好要求后去进行登录，结果 **请求的地址不存在404**，这是因为我们在**自定义登录页面的同时也影响到了表单提交地址**，*表单的提交地址和自定义的登录地址相同*，也就是说我们通过 get 请求访问 toLogin 跳转到了登录页面，然后需要通过 post 请求访问 toLogin 进行登录
 
@@ -552,11 +552,11 @@ protected void configure(HttpSecurity http) throws Exception {
 
 注销的控制器完成了，点击注销的超链接也完成了，接下来我们来测试一下结果：
 
-![](./img/security-05.jpg)
+![](/img/security-05.jpg)
 
 结果点击退出登录之后提示 404 了，这是因为 *security 出于安全考虑配置了防止跨站请求伪造 ( CSRF )*，他要求我们的**请求必须是 POST 请求，且需要携带参数 token 参数**，之前的登录表单虽然我们没有添加 token 参数，但是仔细看请求信息的时候还是可以看出 scurity 自动为我们添加了这个参数：
 
-![](./img/security-06.jpg)
+![](/img/security-06.jpg)
 
 我们的注销没有携带 token 参数并且不是 POST 请求，为了省事这里选择*关闭 CSRF 功能*：
 

@@ -74,7 +74,7 @@ Swagger 接口文档主要有四部分组成：
 
 【分组信息】，【分组描述信息】，【接口描述信息】，【实体类信息】
 
-![](./img/swagger-01.jpg)
+![](/img/swagger-01.jpg)
 
 我们目前仅仅是引入了 Swagger 的依赖，开启 Swagger 功能之后如果没有配置的话，默认会使用 swagger 初始化的配置
 
@@ -99,7 +99,7 @@ public class SwaggerConfig {
 
 上面使用 Swagger2 默认规则创建了一个 Docket 对象，定义分组名称为 `张涵哲的分组`，效果如图所示：
 
-![](./img/swagger-02.jpg)
+![](/img/swagger-02.jpg)
 
 > 多分组配置
 
@@ -122,7 +122,7 @@ public class SwaggerConfig {
 }
 ~~~
 
-![](./img/swagger-03.jpg)
+![](/img/swagger-03.jpg)
 
 ## 配置分组详情
 
@@ -159,7 +159,7 @@ public class SwaggerConfig {
 
 我们为 `张涵哲的分组` 配置了一段描述信息，接下来看看效果：
 
-![image-20200812131813648](./img/swagger-04.png)
+![image-20200812131813648](/img/swagger-04.png)
 
 可以看到分组的描述信息已经显示出来了。
 
@@ -222,7 +222,7 @@ public Docket docket() {
 
 > 简单接口显示
 
-![](./img/swagger-05.jpg)
+![](/img/swagger-05.jpg)
 
 上面的图片是扫描到接口后默认生成的接口文档，Swagger 是以 `Controller` 为单位，对接口进行分组管理的，这个分组的元素在 Swagger 中称为 `Tag`，我们可以通过注解来修改一下接口文档，让他更人性化：
 
@@ -265,7 +265,7 @@ public class UserController {
 
 效果如下图所示：
 
-![](./img/swagger-06.jpg)
+![](/img/swagger-06.jpg)
 
 > 跨组显示接口
 
@@ -290,7 +290,7 @@ public class DeptController {
 
 如下图所示：
 
-![](./img/swagger-07.jpg)
+![](/img/swagger-07.jpg)
 
 > 通过已有的接口新建一个分组
 
@@ -321,7 +321,7 @@ public class DeptController {
 }
 ```
 
-![](./img/swagger-08.jpg)
+![](/img/swagger-08.jpg)
 
 ## 实体类信息配置
 
@@ -357,4 +357,4 @@ public class UserBean {
 
 效果如图所示：
 
-![](./img/swagger-09.jpg)
+![](/img/swagger-09.jpg)

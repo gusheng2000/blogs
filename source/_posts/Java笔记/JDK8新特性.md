@@ -22,7 +22,7 @@ public interface LogService {
 
 众所周知，Java中的接口是不能直接创建实例的，因为他的抽象方法没有得到实现：
 
-![](../img/JDK8-01.png)
+![](..//img/JDK8-01.png)
 
 当我们想要创建接口实例的时候一般都通过实现类来获取实例：
 
@@ -67,7 +67,7 @@ public class ApplicationMain {
 
 函数式接口还有一个注解为`@FunctionalInterface`，据我了解这个注解可有可无，它主要起到的是检查的作用，当接口中的抽象方法数量大于1的时候就会报错：
 
-![](../img/JDK8-02.png)
+![](..//img/JDK8-02.png)
 
 ## 内置常用函数式接口
 
