@@ -419,7 +419,7 @@ index:
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 80
+  banner_img_height: 100
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -833,7 +833,7 @@ about:
   subtitle: Think twice, code once.
   avatar: /img/avatar.jpg
   name: "sk-1008"
-  intro: "总有些时候，人要面临痛苦的选择。 选择应该选择的是勇敢， 选择不该选择的是无奈， 放弃不该放弃的是懦夫， 放弃该放弃的是睿智。"
+  intro: "总有些时候，人要面临痛苦的选择。选择应该选择的是勇敢，<br/>选择不该选择的是无奈，放弃不该放弃的是懦夫，放弃该放弃的是睿智。"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
