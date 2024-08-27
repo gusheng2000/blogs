@@ -133,27 +133,27 @@ markdown:
 
 # 生成静态资源压缩插件 开启
 # https://github.com/chenzhutian/hexo-all-minifier
-all_minifier: true
-# # html压缩
-# html_minifier:
-#   enable: true
-#   silent: true
+all_minifier: false
+  # # html压缩
+html_minifier:
+    enable: true
+    silent: true
 #   ignore_error: false
 #   exclude:
 
 # # css压缩
-# css_minifier:
-#   enable: true
-#   exclude:
-#     - '*.min.css'
+css_minifier:
+  enable: true
+  exclude:
+    - '*.min.css'
     
-# # js压缩
-# js_minifier:
-#   enable: true
-#   mangle: true
-#   compress:
-#   exclude:
-#     - '*.min.js'
+# js压缩
+js_minifier:
+  enable: true
+  mangle: true
+  compress:
+  exclude:
+    - '*.min.js'
 # js_concator:
 #   enable: false
 #   bundle_path: '/js/bundle.js'
