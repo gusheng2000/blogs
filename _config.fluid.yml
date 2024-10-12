@@ -839,7 +839,7 @@ about:
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/gusheng2000", tip: "GitHub" }
     - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.ico" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/img/qrcode.jpg" }
 
 
 #---------------------------
