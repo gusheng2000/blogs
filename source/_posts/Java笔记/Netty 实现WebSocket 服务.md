@@ -4,7 +4,8 @@ title: 【网络编程】Netty 实现WebSocket 服务
 tag: 网络编程
 categories: 网络编程
 date: 2024/9/13 20:46:25
-index_img:   <https://s2.loli.net/2024/01/23/DOQteIg2SAsfxwm.png>
+index_img: https://s2.loli.net/2024/01/23/DOQteIg2SAsfxwm.png
+banner_img: /img/netty/banner2.jpg
 ---
 
 # Netty 实现WebSocket 服务
@@ -149,7 +150,7 @@ public class CAgentWebSocketHandler extends SimpleChannelInboundHandler<TextWebS
 
 ## 3.1 **ChannelHandler的生命周期与事件处理机制**
 
-![Untitled](Netty%20%E5%AE%9E%E7%8E%B0WebSocket%20%E6%9C%8D%E5%8A%A1%20657c76b554e648f6aadfc6c919ca1493/Untitled.png)
+![生命周期与事件处理机制](https://cdn.jsdelivr.net/gh/skr-1008/picgo1@main/img/202408271623376.png)
 
 ### **概述**
 
@@ -332,7 +333,7 @@ public class HeartbeatHandler extends ChannelInboundHandlerAdapter {
 
 `IdleStateHandler` 内有三个内部类, `ReaderIdleTimeoutTask`,`WriterIdleTimeoutTask ,AllIdleTimeoutTask` 里面都会调用  channelIdle 方法  也就是出现超时事件时 都会执行这个方法
 
-![Untitled](Netty%20%E5%AE%9E%E7%8E%B0WebSocket%20%E6%9C%8D%E5%8A%A1%20657c76b554e648f6aadfc6c919ca1493/Untitled%201.png)
+![IdleStateHandler调用](https://cdn.jsdelivr.net/gh/skr-1008/picgo1@main/img/202411071427992.png)
 
 ```java
     /**
