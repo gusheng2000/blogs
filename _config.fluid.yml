@@ -412,7 +412,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/banner.jpg
+  banner_img: /img/banner/banner2025.jpg
   # banner_img: https://s2.loli.net/2024/03/18/RaNOGF8wuE74iPb.png
   # banner_img: https://s2.loli.net/2023/11/26/mA8TOvK1MRnsEX6.jpg
 
@@ -764,7 +764,8 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://s2.loli.net/2024/03/18/l9ydZEiqaxFroGR.jpg
+  # banner_img: https://s2.loli.net/2024/03/18/l9ydZEiqaxFroGR.jpg
+  banner_img:  /img/banner/archive.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle: "A girl who loves to laugh won't have too bad luck"
@@ -776,7 +777,8 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://s2.loli.net/2024/02/26/nA3yhO9fKFWxc8p.jpg
+  #banner_img: https://s2.loli.net/2024/02/26/nA3yhO9fKFWxc8p.jpg
+  banner_img:  /img/banner/category.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle: "Nothing on you baby !"
@@ -806,9 +808,9 @@ category:
 #---------------------------
 tag:
   enable: true
-  # banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/78316639_p02.jpg
-  # banner_img: https://s2.loli.net/2023/11/26/ipGSv2Qjbeu1CAJ.
-  banner_img: https://s2.loli.net/2024/02/26/oiZSWn1E4zXY6GJ.jpg
+  # banner_img: https://s2.loli.net/2023/11/26/ipGSv2Qjbeu1CAJ.jpg      // wubinn
+  # banner_img: https://s2.loli.net/2024/02/26/oiZSWn1E4zXY6GJ.jpg
+  banner_img:  /img/banner/tag.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle: "You are beautiful,you are strong,you are full of light,I enjoy you."
@@ -827,7 +829,8 @@ tag:
 about:
   enable: true
   # banner_img: https://s2.loli.net/2024/02/26/oiZSWn1E4zXY6GJ.jpg
-  banner_img: /img/about.jpg
+  # banner_img: /img/about.jpg
+  banner_img:  /img/banner/about2.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle: Think twice, code once.
