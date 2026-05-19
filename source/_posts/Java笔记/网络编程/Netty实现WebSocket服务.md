@@ -1,3 +1,11 @@
+---
+title: 【Netty】 实现WebSocket 服务
+tag: WebSocket,Netty
+categories: Netty
+date: 2024/8/13 21:00:00
+index_img: /img/netty/banner.png
+banner_img: /img/netty/banner.png
+---
 # Netty 实现WebSocket 服务
 
 在使用 Netty 实现 WebSocket 服务时，我们需要几个关键步骤来确保服务的正确运行和优化性能。首先，我们需要设置 Netty 服务器，并配置相应的通道初始化器来处理 WebSocket 请求。其次，我们需要实现 WebSocket 处理器来管理连接、消息和关闭事件。
