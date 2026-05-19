@@ -487,11 +487,7 @@ index:
 # Post Page
 #---------------------------
 post:
-<<<<<<< Updated upstream
-  banner_img: /img/banner/category.jpg
-=======
-  banner_img: /img/banner.jpg
->>>>>>> Stashed changes
+  banner_img: /img/banner2025.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
 
