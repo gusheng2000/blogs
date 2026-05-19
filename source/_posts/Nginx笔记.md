@@ -3,7 +3,7 @@ title: Nginx简单使用
 tag: 环境部署
 categories: 运维技术
 date: 2022/7/13 20:46:25
-index_img:  https://s2.loli.net/2023/11/26/GyIdrAsehtBv1ug.png
+# index_img:  https://s2.loli.net/2023/11/26/GyIdrAsehtBv1ug.png
 ---
 # Nginx 笔记
 
