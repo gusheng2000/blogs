@@ -167,3 +167,14 @@ js_minifier:
 #   optimizationLevel: 2
 #   pngquant: false
 #   progressive: false
+# RSS订阅配置
+feed:
+  enable: true
+  type: atom          # 可选 atom / rss2，通用选atom
+  path: atom.xml      # 生成的rss文件地址
+  limit: 20           # 最多展示多少篇文章，false=全部
+  content: false      # false只输出摘要，true输出全文
+  content_limit: 200  # 摘要字数限制
+  content_limit_delim: ' '
+  order_by: -date     # 按发布时间倒序
+  autodiscovery: true # 浏览器自动识别rss图标
